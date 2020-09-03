@@ -1,0 +1,16 @@
+server:
+  port: 8002
+  servlet-path: /*
+  
+example:
+  baseUrl: http://localhost:8001
+  oauth2:
+    client:
+      grant_type: password
+      client_id: employee-service
+      client_secret: 4bb023e3-1a0f-4048-8b4f-6cf0abc59cd4  
+      accessTokenUri: http://localhost:8083/auth/realms/dev/protocol/openid-connect/token
+      username: rachel
+      password: 123456
+      
+      
